@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+*[id].ascrolllink:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
+#services:before {
+  display: block;
+  content: " ";
+  margin-top: -1px;
+  height: 1px;
+  visibility: hidden;
+}
+.form-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/contactbg.jpg) no-repeat;
+  background-size: cover;
+}
+body {
+  padding-top: 30px;
+}
+.navbar-brand {
+  font-family: "Roboto Slab", serif;
+}

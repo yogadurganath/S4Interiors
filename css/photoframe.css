@@ -1,0 +1,19 @@
+/* Inspired from https://codepen.io/brycesnyder/pen/ALmVYp */
+.photoframe {
+  border: 8px solid #222;
+  height: 270px;
+  width: 200px;
+  -webkit-box-shadow: px 2px 3px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 10px 4px rgba(0, 0, 0, 0.3);
+}
+
+.photoborder {
+  background: white;
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: inset 10px 10px 10px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 3px 5px 2px 3px rgba(0, 0, 0, 0.4);
+}
+/* 
+background - 80a4ff;
+https://colorkit.co/palette/6a929c-939db0-addfc9-d7e9de/ */
